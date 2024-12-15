@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maxx Coffee</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Top info -->
+             <div id="header-info">
+                <div class="header-info large-contain">
+                    <!-- left info -->
+                    <div class="header-info-items" data-aos="fade-in" data-aos-delay="1200">
+                        <!-- location-->
+                         <div>
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#FFF" d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602"/></svg>
+                            <span>Jalan Patimura, Kota Padang, Sumatera Barat</span>
+                         </div>
+
+                        <!-- Email -->
+                         <div>
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#FFF" d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/></svg>
+                            <span>contact@MaxxCoffee.com</span>
+                         </div>
+                    </div>
+
+                    <!-- Right Info -->
+                    <div class="header-info-items info-social"data-aos="fade-in" data-aos-delay="1200">
+                        <a href="https://instagram.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FFF" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+
+                        </a>
+                        <a href="https://youtube.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FFF" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+
+                        </a>
+                        <a href="http://x.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FFF" d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                        </a>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Hero -->
+             <section id="hero">
+                <div class="hero main-container" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="800">
+                    <h4>Selamat Menikmati pengalaman yang tak terlupakan</h4>
+                    <h1>Maxx Coffee</h1>
+                    <div class="hero-cta">
+                        <a href="#menu">
+                            <button class="cta-button">
+                                See Menu
+                            </button>
+                        </a>
+
+                        <a href="#reservation">
+                            <button class="cta-button">
+                                Book A Table
+                            </button>
+                        </a>
+                    </div>
+                </div>
+             </section>
+
+             <div class="header-shadow"></div>
+        </header>
+
+
+        <!-- About -->
+         <section id="about">
+            <about class="about main-container">
+                <p data-aos="fade-up"> 
+                    Selamat datang di kafe kami yang menawan, di mana setiap cangkir 
+                    menceritakan sebuah kisah dan setiap gigitan adalah sebuah perjalanan rasa. 
+                    Terletak di jantung kota, tempat kami yang hangat dan mengundang adalah 
+                    surga bagi mereka yang mencari ketenangan.
+                </p>
+                <p data-aos="fade-up">
+                    Terima kasih telah menciptakan kenangan yang tak terlupakan bersama kami.
+                </p>
+            </about>
+         </section>
+
+         <!-- Menu -->
+         <section id="menu">
+            <div class="menu main-container">
+                <div class="section-tittle"data-aos="fade-up">
+                    <h5>Explore</h5>
+                    <h1>Our Menu</h1>
+                    <p>
+                        Menu kami, di mana setiap hidangan adalah sebuah mahakarya dan setiap gigitannya, merupakan sebuah tepuk tangan yang meriah!
+                    </p>
+                </div>
+
+                <!-- Main Course -->
+                 <div class="sub-menu" data-aos="fade-up">
+                    <div class="sub-section-title">
+                        <h2>Drinks</h2>
+                        <p>
+                            Menikmati, dan merayakan di mana setiap tetes menceritakan sebuah kisah!
+                        </p>
+                        <div class="standing-line"></div>
+                    </div>
+                    
+                    <!-- Menu -->
+                    <div class="menu-details">
+                        <div class="menu-detail" data-aos="fade-up">
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Iced Americano</h4>
+                                    <p>Espresso shoot yang dicampur dengan segelas air menghadirkan karakter, aroma, dan rasa yang ideal.</p>
+                                </div>
+                                <div>Rp. 21K</div>
+                            </div>
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Hot Americano</h4>
+                                    <p>Espresso shoot yang dicampur dengan segelas air menghadirkan karakter, aroma, dan rasa yang ideal.</p>
+                                </div>
+                                <div>Rp. 21K</div>
+                            </div>
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Iced Cappuccino</h4>
+                                    <p>Paduan Espresso, susu hangat, dan lapisan foam tebal di atasnya tanpa gula tambahan.</p>
+                                </div>
+                                <div>Rp. 25K</div>
+                            </div>
+                        </div>
+
+                        <div class="menu-detail" data-aos="fade-up">
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Iced Classic Latte</h4>
+                                    <p>Perpaduan rasa espresso premium dengan saus krim spesial</p>
+                                </div>
+                                <div>Rp. 24K</div>
+                            </div>
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Hot Cappuccino</h4>
+                                    <p>Paduan Espresso, susu hangat, dan lapisan foam tebal di atasnya tanpa gula tambahan.</p>
+                                </div>
+                                <div>Rp. 25K</div>
+                            </div>
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Hot Espresso</h4>
+                                    <p>Ekstrak biji kopi Arabika murni tanpa campuran.</p>
+                                </div>
+                                <div>Rp. 19K</div>
+                            </div>
+                        </div>
+
+                        <div class="menu-detail" data-aos="fade-up">
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Iced Dark Chocolate</h4>
+                                    <p>Dibuat dari 100% dark chocolate dan paduan susu yang nikmat.</p>
+                                </div>
+                                <div>Rp. 30K</div>
+                            </div>
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Iced Matcha Green Tea</h4>
+                                    <p>Bubuk matcha spesial yang lembut dan creamy berpadu dengan susu segar.</p>
+                                </div>
+                                <div>Rp. 30K</div>
+                            </div>
+                            <div class="menu-item">
+                                <div>
+                                    <h4>Hot Matcha Green Tea</h4>
+                                    <p>Bubuk matcha spesial yang lembut dan creamy berpadu dengan susu segar.</p>
+                                </div>
+                                <div>Rp. 30K</div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+         </section>
+
+        <!-- Drinks Carousel -->
+         <div class="menu-carousel drinks-carousel" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+            <div class="menu-carousel-slide drinks-corousel-slide">
+                <span class="menu-img">
+                    <img src="Images/Drinks/Iced Americano.jpg" alt="Iced Americano">
+                    <span class="tooltip-text">Iced Americano</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Hot Americano.jpg" alt="Hot Americano">
+                    <span class="tooltip-text">Hot Americano</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Iced Cappuccino.jpg" alt="Iced Cappuccino">
+                    <span class="tooltip-text">Iced Cappuccino</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Iced Classic Latte.jpg" alt="Iced Classic Latte">
+                    <span class="tooltip-text">Iced Classic Latte</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Hot Cappuccino.jpg" alt="Hot Cappuccino">
+                    <span class="tooltip-text">Hot Cappuccino</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Hot Espresso.jpg" alt="Hot Espresso">
+                    <span class="tooltip-text">Hot Espresso</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Iced Dark Chocolate.jpg" alt="Iced Dark Chocolate">
+                    <span class="tooltip-text">Iced Dark Chocolate</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Iced Matcha Green Tea.jpg" alt="Iced Matcha Green Tea">
+                    <span class="tooltip-text">Iced Matcha Green Tea</span>
+                </span> 
+                <span class="menu-img">
+                    <img src="Images/Drinks/Hot Matcha Green Tea.jpg" alt="Hot Matcha Green Tea">
+                    <span class="tooltip-text">Hot Matcha Green Tea</span>
+                </span> 
+            </div>
+         </div>
+
+        <!-- Reservation -->
+        <section id="reservation">
+            <div class="reservation main-container">
+              <div class="section-tittle" data-aos="fade-up">
+                <h5>Book tables</h5>
+                <h1>Reservation</h1>
+                <p>Hubungi kami untuk menemukan meja terbaik untuk Anda.</p>
+              </div>
+
+              <div class="reservation-items">
+                <div class="reservation-item-info" data-aos="fade-up">
+                  <div class="reservation-info">
+                    <p>Kami akan mengkonfirmasi reservasi Anda dalam waktu 24 jam.</p>
+                  </div>
+      
+                  <div class="opening-times">
+                    <h3>Opening Times</h3>
+      
+                    <div class="opening-times-schedule">
+                      <div>
+                        <p>Senin - Jumat</p>
+                        <p>10.00 - 22.00</p>
+                      </div>
+      
+                      <div>
+                        <p>Sabtu - Minggu</p>
+                        <p>10.00 - 23.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="social-media">
+                    <h3>Our Social Media</h3>
+                    <div class="contact-info-social">
+                      <a href="https://instagram.com">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="#FFF"
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                          />
+                        </svg>
+                      </a>
+      
+                      <a href="https://youtube.com">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="#FFF"
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                          />
+                        </svg>
+                      </a>
+      
+                      <a href="https://x.com">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="#FFF"
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+      
+                <form class="reservation-item-form" id="reservation-item-form" data-aos="fade-up" data-aos-delay="100">
+                  <div>
+                    <label for="table_name">Name</label>
+                    <input
+                      name="table_name"
+                      type="text"
+                      id="table_name"
+                      placeholder="Your name"
+                    />
+                  </div>
+      
+                  <div>
+                    <label for="table_capacity">Number of People</label>
+                    <input
+                      type="number"
+                      name="table_capacity"
+                      id="table_capacity"
+                      placeholder="Number of people"
+                    />
+                  </div>
+      
+                  <div>
+                    <label for="order_date">Date and Time (WIB)</label>
+                    <input
+                      name="order_date"
+                      type="datetime-local"
+                      id="order_date"
+                      placeholder="Time of arrival"
+                    />
+                  </div>
+      
+                  <div>
+                    <label for="order">Order Here</label>
+                    <textarea
+                      name="order"
+                      id="order"
+                      cols="30"
+                      rows="10"
+                      placeholder="Leave blank if you want to order on the location"
+                    ></textarea>
+                  </div>
+      
+                  <div>
+                    <a>
+                      <button>Send</button>
+                    </a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+      
+        <!-- Location -->
+         <section id="location">
+            <div class="location">
+                <div class="map" data-aos="fade-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2762390656644!2d100.35535307496515!3d-0.9444917990463776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b936fa609387%3A0x62d05cf6523723c6!2sJl.%20Patimura%2C%20Kp.%20Jao%2C%20Kec.%20Padang%20Bar.%2C%20Kota%20Padang%2C%20Sumatera%20Barat!5e0!3m2!1sid!2sid!4v1734261345270!5m2!1sid!2sid" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+         </section>
+
+        <!-- Footer -->
+         <footer>
+            <div class="footer-info">
+                <div class="footer-info-items main-container">
+                    <div data-aos="fade-up">
+                        <h3>Selamat datang di Maxx Coffee</h3>
+                        <p>
+                            Selamat datang di Maxx Coffee, di mana setiap tegukan adalah sebuah perjalanan.
+                        </p>
+                        <p>
+                            Masuki tempat yang nyaman, di mana aroma kopi yang baru diseduh dan kehangatan keramahan yang tulus mengundang Anda untuk bersantai dan menikmati saat-saat memanjakan diri.
+                        </p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <h3>Visit</h3>
+                        <p>Jalan Patimure, Kota Padang, Sumatera Barat</p>
+
+                        <h3>Talk</h3>
+                        <p>123.456-7</p>
+
+                        <h3>Write</h3>
+                        <p>contact@MaxxCoffee.com</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <h3>Hours</h3>
+                        <div>
+                            <p>Senin - Jumat</p>
+                            <p>10.00 - 22.00</p>
+                        </div>
+
+                        <div>
+                            <p>Sabtu - Minggu</p>
+                            <p>10.00 - 23.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="footer-items large-container">
+                    <div class="footer-left">
+                        &copy;2024 MaxxCoffee, All rights reserved.
+                    </div>
+
+                    <div class="footer mid">MaxxCoffee</div>
+
+                    <div class="footer-right">Taste the difference</div>
+                </div>
+            </div>
+         </footer>
+
+        <script src="js/script.js" type="text/javascript"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+</html>
